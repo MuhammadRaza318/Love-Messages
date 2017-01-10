@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8761EB601E25054500E0EDB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8761EB5F1E25054500E0EDB1 /* main.m */; };
+		8761EB631E25054500E0EDB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8761EB621E25054500E0EDB1 /* AppDelegate.m */; };
+		8761EB661E25054500E0EDB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8761EB651E25054500E0EDB1 /* ViewController.m */; };
+		8761EB691E25054500E0EDB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8761EB671E25054500E0EDB1 /* Main.storyboard */; };
+		8761EB6B1E25054500E0EDB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8761EB6A1E25054500E0EDB1 /* Assets.xcassets */; };
+		8761EB6E1E25054500E0EDB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8761EB6C1E25054500E0EDB1 /* LaunchScreen.storyboard */; };
+		8761EB791E25054500E0EDB1 /* Love_MessagesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8761EB781E25054500E0EDB1 /* Love_MessagesTests.m */; };
+		8761EB841E25054600E0EDB1 /* Love_MessagesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8761EB831E25054600E0EDB1 /* Love_MessagesUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8761EB751E25054500E0EDB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8761EB531E25054500E0EDB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8761EB5A1E25054500E0EDB1;
+			remoteInfo = "Love Messages";
+		};
+		8761EB801E25054600E0EDB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8761EB531E25054500E0EDB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8761EB5A1E25054500E0EDB1;
+			remoteInfo = "Love Messages";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8761EB5B1E25054500E0EDB1 /* Love Messages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Love Messages.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8761EB5F1E25054500E0EDB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8761EB611E25054500E0EDB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8761EB621E25054500E0EDB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8761EB641E25054500E0EDB1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8761EB651E25054500E0EDB1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8761EB681E25054500E0EDB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8761EB6A1E25054500E0EDB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8761EB6D1E25054500E0EDB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8761EB6F1E25054500E0EDB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8761EB741E25054500E0EDB1 /* Love MessagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Love MessagesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8761EB781E25054500E0EDB1 /* Love_MessagesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Love_MessagesTests.m; sourceTree = "<group>"; };
+		8761EB7A1E25054600E0EDB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8761EB7F1E25054600E0EDB1 /* Love MessagesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Love MessagesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8761EB831E25054600E0EDB1 /* Love_MessagesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Love_MessagesUITests.m; sourceTree = "<group>"; };
+		8761EB851E25054600E0EDB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8761EB581E25054500E0EDB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8761EB711E25054500E0EDB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8761EB7C1E25054600E0EDB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8761EB521E25054500E0EDB1 = {
+			isa = PBXGroup;
+			children = (
+				8761EB5D1E25054500E0EDB1 /* Love Messages */,
+				8761EB771E25054500E0EDB1 /* Love MessagesTests */,
+				8761EB821E25054600E0EDB1 /* Love MessagesUITests */,
+				8761EB5C1E25054500E0EDB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8761EB5C1E25054500E0EDB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8761EB5B1E25054500E0EDB1 /* Love Messages.app */,
+				8761EB741E25054500E0EDB1 /* Love MessagesTests.xctest */,
+				8761EB7F1E25054600E0EDB1 /* Love MessagesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8761EB5D1E25054500E0EDB1 /* Love Messages */ = {
+			isa = PBXGroup;
+			children = (
+				8761EB611E25054500E0EDB1 /* AppDelegate.h */,
+				8761EB621E25054500E0EDB1 /* AppDelegate.m */,
+				8761EB641E25054500E0EDB1 /* ViewController.h */,
+				8761EB651E25054500E0EDB1 /* ViewController.m */,
+				8761EB671E25054500E0EDB1 /* Main.storyboard */,
+				8761EB6A1E25054500E0EDB1 /* Assets.xcassets */,
+				8761EB6C1E25054500E0EDB1 /* LaunchScreen.storyboard */,
+				8761EB6F1E25054500E0EDB1 /* Info.plist */,
+				8761EB5E1E25054500E0EDB1 /* Supporting Files */,
+			);
+			path = "Love Messages";
+			sourceTree = "<group>";
+		};
+		8761EB5E1E25054500E0EDB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8761EB5F1E25054500E0EDB1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8761EB771E25054500E0EDB1 /* Love MessagesTests */ = {
+			isa = PBXGroup;
+			children = (
+				8761EB781E25054500E0EDB1 /* Love_MessagesTests.m */,
+				8761EB7A1E25054600E0EDB1 /* Info.plist */,
+			);
+			path = "Love MessagesTests";
+			sourceTree = "<group>";
+		};
+		8761EB821E25054600E0EDB1 /* Love MessagesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8761EB831E25054600E0EDB1 /* Love_MessagesUITests.m */,
+				8761EB851E25054600E0EDB1 /* Info.plist */,
+			);
+			path = "Love MessagesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8761EB5A1E25054500E0EDB1 /* Love Messages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8761EB881E25054600E0EDB1 /* Build configuration list for PBXNativeTarget "Love Messages" */;
+			buildPhases = (
+				8761EB571E25054500E0EDB1 /* Sources */,
+				8761EB581E25054500E0EDB1 /* Frameworks */,
+				8761EB591E25054500E0EDB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Love Messages";
+			productName = "Love Messages";
+			productReference = 8761EB5B1E25054500E0EDB1 /* Love Messages.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8761EB731E25054500E0EDB1 /* Love MessagesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8761EB8B1E25054600E0EDB1 /* Build configuration list for PBXNativeTarget "Love MessagesTests" */;
+			buildPhases = (
+				8761EB701E25054500E0EDB1 /* Sources */,
+				8761EB711E25054500E0EDB1 /* Frameworks */,
+				8761EB721E25054500E0EDB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8761EB761E25054500E0EDB1 /* PBXTargetDependency */,
+			);
+			name = "Love MessagesTests";
+			productName = "Love MessagesTests";
+			productReference = 8761EB741E25054500E0EDB1 /* Love MessagesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8761EB7E1E25054600E0EDB1 /* Love MessagesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8761EB8E1E25054600E0EDB1 /* Build configuration list for PBXNativeTarget "Love MessagesUITests" */;
+			buildPhases = (
+				8761EB7B1E25054600E0EDB1 /* Sources */,
+				8761EB7C1E25054600E0EDB1 /* Frameworks */,
+				8761EB7D1E25054600E0EDB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8761EB811E25054600E0EDB1 /* PBXTargetDependency */,
+			);
+			name = "Love MessagesUITests";
+			productName = "Love MessagesUITests";
+			productReference = 8761EB7F1E25054600E0EDB1 /* Love MessagesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8761EB531E25054500E0EDB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Muhammad Luqman";
+				TargetAttributes = {
+					8761EB5A1E25054500E0EDB1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = V73LJ8VDAT;
+						ProvisioningStyle = Automatic;
+					};
+					8761EB731E25054500E0EDB1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = V73LJ8VDAT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8761EB5A1E25054500E0EDB1;
+					};
+					8761EB7E1E25054600E0EDB1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = V73LJ8VDAT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8761EB5A1E25054500E0EDB1;
+					};
+				};
+			};
+			buildConfigurationList = 8761EB561E25054500E0EDB1 /* Build configuration list for PBXProject "Love Messages" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8761EB521E25054500E0EDB1;
+			productRefGroup = 8761EB5C1E25054500E0EDB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8761EB5A1E25054500E0EDB1 /* Love Messages */,
+				8761EB731E25054500E0EDB1 /* Love MessagesTests */,
+				8761EB7E1E25054600E0EDB1 /* Love MessagesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8761EB591E25054500E0EDB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8761EB6E1E25054500E0EDB1 /* LaunchScreen.storyboard in Resources */,
+				8761EB6B1E25054500E0EDB1 /* Assets.xcassets in Resources */,
+				8761EB691E25054500E0EDB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8761EB721E25054500E0EDB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8761EB7D1E25054600E0EDB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8761EB571E25054500E0EDB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8761EB661E25054500E0EDB1 /* ViewController.m in Sources */,
+				8761EB631E25054500E0EDB1 /* AppDelegate.m in Sources */,
+				8761EB601E25054500E0EDB1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8761EB701E25054500E0EDB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8761EB791E25054500E0EDB1 /* Love_MessagesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8761EB7B1E25054600E0EDB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8761EB841E25054600E0EDB1 /* Love_MessagesUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8761EB761E25054500E0EDB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8761EB5A1E25054500E0EDB1 /* Love Messages */;
+			targetProxy = 8761EB751E25054500E0EDB1 /* PBXContainerItemProxy */;
+		};
+		8761EB811E25054600E0EDB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8761EB5A1E25054500E0EDB1 /* Love Messages */;
+			targetProxy = 8761EB801E25054600E0EDB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8761EB671E25054500E0EDB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8761EB681E25054500E0EDB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8761EB6C1E25054500E0EDB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8761EB6D1E25054500E0EDB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8761EB861E25054600E0EDB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8761EB871E25054600E0EDB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8761EB891E25054600E0EDB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V73LJ8VDAT;
+				INFOPLIST_FILE = "Love Messages/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "luqman.Love-Messages";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8761EB8A1E25054600E0EDB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V73LJ8VDAT;
+				INFOPLIST_FILE = "Love Messages/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "luqman.Love-Messages";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8761EB8C1E25054600E0EDB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V73LJ8VDAT;
+				INFOPLIST_FILE = "Love MessagesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "luqman.Love-MessagesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Love Messages.app/Love Messages";
+			};
+			name = Debug;
+		};
+		8761EB8D1E25054600E0EDB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V73LJ8VDAT;
+				INFOPLIST_FILE = "Love MessagesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "luqman.Love-MessagesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Love Messages.app/Love Messages";
+			};
+			name = Release;
+		};
+		8761EB8F1E25054600E0EDB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = V73LJ8VDAT;
+				INFOPLIST_FILE = "Love MessagesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "luqman.Love-MessagesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Love Messages";
+			};
+			name = Debug;
+		};
+		8761EB901E25054600E0EDB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = V73LJ8VDAT;
+				INFOPLIST_FILE = "Love MessagesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "luqman.Love-MessagesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Love Messages";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8761EB561E25054500E0EDB1 /* Build configuration list for PBXProject "Love Messages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8761EB861E25054600E0EDB1 /* Debug */,
+				8761EB871E25054600E0EDB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8761EB881E25054600E0EDB1 /* Build configuration list for PBXNativeTarget "Love Messages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8761EB891E25054600E0EDB1 /* Debug */,
+				8761EB8A1E25054600E0EDB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8761EB8B1E25054600E0EDB1 /* Build configuration list for PBXNativeTarget "Love MessagesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8761EB8C1E25054600E0EDB1 /* Debug */,
+				8761EB8D1E25054600E0EDB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8761EB8E1E25054600E0EDB1 /* Build configuration list for PBXNativeTarget "Love MessagesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8761EB8F1E25054600E0EDB1 /* Debug */,
+				8761EB901E25054600E0EDB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8761EB531E25054500E0EDB1 /* Project object */;
+}

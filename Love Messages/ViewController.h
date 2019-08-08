@@ -8,8 +8,23 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#import "DBManager.h"
 
+#import <GoogleMobileAds/GoogleMobileAds.h>
+@import GoogleMobileAds;
+
+static BOOL flagForInterstitialLoad;
+
+@interface ViewController : UIViewController<GADBannerViewDelegate,GADInterstitialDelegate>
+
+@property (weak, nonatomic) IBOutlet UITableView *myTableView;
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicater;
+@property (weak, nonatomic) IBOutlet UIImageView *imagesForActivity;
+
+@property(nonatomic, strong) GADInterstitial *interstitial;
+@property (weak, nonatomic) IBOutlet GADBannerView *bannerView;
+
+@property (weak, nonatomic) IBOutlet UIView *viewForHeader;
 
 @end
 

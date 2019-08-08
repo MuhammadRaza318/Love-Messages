@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41B20B4222F803D6009633C1 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B20B4122F803D6009633C1 /* GoogleMobileAds.framework */; };
+		41B20B4C22F85C2C009633C1 /* UnityAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B20B4B22F85C2C009633C1 /* UnityAds.framework */; };
+		874BF2E01E27554F003365AF /* iphoneinfobg.png in Resources */ = {isa = PBXBuildFile; fileRef = 874BF2DF1E27554F003365AF /* iphoneinfobg.png */; };
 		8761EB601E25054500E0EDB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8761EB5F1E25054500E0EDB1 /* main.m */; };
 		8761EB631E25054500E0EDB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8761EB621E25054500E0EDB1 /* AppDelegate.m */; };
 		8761EB661E25054500E0EDB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8761EB651E25054500E0EDB1 /* ViewController.m */; };
@@ -15,6 +18,49 @@
 		8761EB6E1E25054500E0EDB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8761EB6C1E25054500E0EDB1 /* LaunchScreen.storyboard */; };
 		8761EB791E25054500E0EDB1 /* Love_MessagesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8761EB781E25054500E0EDB1 /* Love_MessagesTests.m */; };
 		8761EB841E25054600E0EDB1 /* Love_MessagesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8761EB831E25054600E0EDB1 /* Love_MessagesUITests.m */; };
+		8761EB981E25066B00E0EDB1 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8761EB961E25066B00E0EDB1 /* libsqlite3.0.tbd */; };
+		8761EB991E25066B00E0EDB1 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8761EB971E25066B00E0EDB1 /* libsqlite3.tbd */; };
+		8761EB9E1E25071800E0EDB1 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8761EB9D1E25071800E0EDB1 /* DBManager.m */; };
+		8761EBA11E25075000E0EDB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8761EBA01E25075000E0EDB1 /* Foundation.framework */; };
+		8761EBA41E2510C400E0EDB1 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8761EBA31E2510C400E0EDB1 /* MainTableViewCell.xib */; };
+		8761EBA71E25111800E0EDB1 /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8761EBA61E25111800E0EDB1 /* MainTableViewCell.m */; };
+		876F49911E28C1F50034D691 /* database.db in Resources */ = {isa = PBXBuildFile; fileRef = 876F49901E28C1ED0034D691 /* database.db */; };
+		879A6EF31E30F9A600DF63DF /* fb.png in Resources */ = {isa = PBXBuildFile; fileRef = 879A6EEE1E30F9A600DF63DF /* fb.png */; };
+		879A6EF41E30F9A600DF63DF /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 879A6EEF1E30F9A600DF63DF /* mail.png */; };
+		879A6EF51E30F9A600DF63DF /* message.png in Resources */ = {isa = PBXBuildFile; fileRef = 879A6EF01E30F9A600DF63DF /* message.png */; };
+		879A6EF61E30F9A600DF63DF /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 879A6EF11E30F9A600DF63DF /* twitter.png */; };
+		879A6EF71E30F9A600DF63DF /* whatsapp.png in Resources */ = {isa = PBXBuildFile; fileRef = 879A6EF21E30F9A600DF63DF /* whatsapp.png */; };
+		879A6F021E30FA4800DF63DF /* birthday.png in Resources */ = {isa = PBXBuildFile; fileRef = 879A6EF81E30FA4800DF63DF /* birthday.png */; };
+		879A6F031E30FA4800DF63DF /* breakup_sms.png in Resources */ = {isa = PBXBuildFile; fileRef = 879A6EF91E30FA4800DF63DF /* breakup_sms.png */; };
+		879A6F041E30FA4800DF63DF /* brokenheart_sms.png in Resources */ = {isa = PBXBuildFile; fileRef = 879A6EFA1E30FA4800DF63DF /* brokenheart_sms.png */; };
+		879A6F051E30FA4800DF63DF /* crush_sms.png in Resources */ = {isa = PBXBuildFile; fileRef = 879A6EFB1E30FA4800DF63DF /* crush_sms.png */; };
+		879A6F061E30FA4800DF63DF /* ilu_sms.png in Resources */ = {isa = PBXBuildFile; fileRef = 879A6EFC1E30FA4800DF63DF /* ilu_sms.png */; };
+		879A6F071E30FA4800DF63DF /* love_sayings.png in Resources */ = {isa = PBXBuildFile; fileRef = 879A6EFD1E30FA4800DF63DF /* love_sayings.png */; };
+		879A6F081E30FA4800DF63DF /* love_sms.png in Resources */ = {isa = PBXBuildFile; fileRef = 879A6EFE1E30FA4800DF63DF /* love_sms.png */; };
+		879A6F091E30FA4800DF63DF /* miss_you.png in Resources */ = {isa = PBXBuildFile; fileRef = 879A6EFF1E30FA4800DF63DF /* miss_you.png */; };
+		879A6F0A1E30FA4800DF63DF /* romantic_sms.png in Resources */ = {isa = PBXBuildFile; fileRef = 879A6F001E30FA4800DF63DF /* romantic_sms.png */; };
+		879A6F0B1E30FA4800DF63DF /* sad_sms.png in Resources */ = {isa = PBXBuildFile; fileRef = 879A6F011E30FA4800DF63DF /* sad_sms.png */; };
+		879A6F0D1E30FA5E00DF63DF /* bkg.png in Resources */ = {isa = PBXBuildFile; fileRef = 879A6F0C1E30FA5E00DF63DF /* bkg.png */; };
+		879A6F0F1E30FB5100DF63DF /* list-line.png in Resources */ = {isa = PBXBuildFile; fileRef = 879A6F0E1E30FB5100DF63DF /* list-line.png */; };
+		879A6F111E30FC3400DF63DF /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 879A6F101E30FC3400DF63DF /* share.png */; };
+		879A6F151E30FC4100DF63DF /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 879A6F121E30FC4100DF63DF /* back.png */; };
+		879A6F161E30FC4100DF63DF /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 879A6F131E30FC4100DF63DF /* home.png */; };
+		879A6F171E30FC4100DF63DF /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = 879A6F141E30FC4100DF63DF /* next.png */; };
+		879A6F191E30FD0900DF63DF /* bookmark-header.png in Resources */ = {isa = PBXBuildFile; fileRef = 879A6F181E30FD0900DF63DF /* bookmark-header.png */; };
+		879A6F1C1E30FD1700DF63DF /* bookmark_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 879A6F1A1E30FD1700DF63DF /* bookmark_active.png */; };
+		879A6F1D1E30FD1700DF63DF /* bookmark_inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 879A6F1B1E30FD1700DF63DF /* bookmark_inactive.png */; };
+		879A6F201E30FDB300DF63DF /* bookmark-header1.png in Resources */ = {isa = PBXBuildFile; fileRef = 879A6F1E1E30FDB300DF63DF /* bookmark-header1.png */; };
+		879A6F211E30FDB300DF63DF /* category-header.png in Resources */ = {isa = PBXBuildFile; fileRef = 879A6F1F1E30FDB300DF63DF /* category-header.png */; };
+		879A6F231E3102FC00DF63DF /* top-bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 879A6F221E3102FC00DF63DF /* top-bar.png */; };
+		879A6F251E310C7500DF63DF /* Splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 879A6F241E310C7500DF63DF /* Splash.png */; };
+		87C0BB9A1E2605050066ACCC /* SingletonClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C0BB991E2605050066ACCC /* SingletonClass.m */; };
+		87C0BB9E1E26092F0066ACCC /* DetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87C0BB9D1E26092F0066ACCC /* DetailTableViewCell.xib */; };
+		87C0BBA11E2609720066ACCC /* DetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C0BBA01E2609720066ACCC /* DetailTableViewCell.m */; };
+		87C0BBA41E2609BB0066ACCC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C0BBA31E2609BB0066ACCC /* DetailViewController.m */; };
+		87C0BBA71E262D110066ACCC /* ViewOneByOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C0BBA61E262D110066ACCC /* ViewOneByOneViewController.m */; };
+		87C0BBAD1E266F200066ACCC /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C0BBAC1E266F200066ACCC /* Social.framework */; };
+		87C0BBB01E2670A60066ACCC /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C0BBAE1E2670A60066ACCC /* Messages.framework */; };
+		87C0BBB11E2670A60066ACCC /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C0BBAF1E2670A60066ACCC /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +81,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8761EB5B1E25054500E0EDB1 /* Love Messages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Love Messages.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41B20B4122F803D6009633C1 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		41B20B4B22F85C2C009633C1 /* UnityAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UnityAds.framework; sourceTree = "<group>"; };
+		874BF2DF1E27554F003365AF /* iphoneinfobg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphoneinfobg.png; sourceTree = "<group>"; };
+		8761EB5B1E25054500E0EDB1 /* Love Quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Love Quotes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8761EB5F1E25054500E0EDB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8761EB611E25054500E0EDB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8761EB621E25054500E0EDB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +100,56 @@
 		8761EB7F1E25054600E0EDB1 /* Love MessagesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Love MessagesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8761EB831E25054600E0EDB1 /* Love_MessagesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Love_MessagesUITests.m; sourceTree = "<group>"; };
 		8761EB851E25054600E0EDB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8761EB961E25066B00E0EDB1 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		8761EB971E25066B00E0EDB1 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		8761EB9C1E25071800E0EDB1 /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		8761EB9D1E25071800E0EDB1 /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		8761EBA01E25075000E0EDB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8761EBA31E2510C400E0EDB1 /* MainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		8761EBA51E25111800E0EDB1 /* MainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
+		8761EBA61E25111800E0EDB1 /* MainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
+		876F49901E28C1ED0034D691 /* database.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = database.db; sourceTree = "<group>"; };
+		879A6EEE1E30F9A600DF63DF /* fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb.png; sourceTree = "<group>"; };
+		879A6EEF1E30F9A600DF63DF /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = "<group>"; };
+		879A6EF01E30F9A600DF63DF /* message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message.png; sourceTree = "<group>"; };
+		879A6EF11E30F9A600DF63DF /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		879A6EF21E30F9A600DF63DF /* whatsapp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whatsapp.png; sourceTree = "<group>"; };
+		879A6EF81E30FA4800DF63DF /* birthday.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = birthday.png; sourceTree = "<group>"; };
+		879A6EF91E30FA4800DF63DF /* breakup_sms.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = breakup_sms.png; sourceTree = "<group>"; };
+		879A6EFA1E30FA4800DF63DF /* brokenheart_sms.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brokenheart_sms.png; sourceTree = "<group>"; };
+		879A6EFB1E30FA4800DF63DF /* crush_sms.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crush_sms.png; sourceTree = "<group>"; };
+		879A6EFC1E30FA4800DF63DF /* ilu_sms.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ilu_sms.png; sourceTree = "<group>"; };
+		879A6EFD1E30FA4800DF63DF /* love_sayings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = love_sayings.png; sourceTree = "<group>"; };
+		879A6EFE1E30FA4800DF63DF /* love_sms.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = love_sms.png; sourceTree = "<group>"; };
+		879A6EFF1E30FA4800DF63DF /* miss_you.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = miss_you.png; sourceTree = "<group>"; };
+		879A6F001E30FA4800DF63DF /* romantic_sms.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = romantic_sms.png; sourceTree = "<group>"; };
+		879A6F011E30FA4800DF63DF /* sad_sms.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sad_sms.png; sourceTree = "<group>"; };
+		879A6F0C1E30FA5E00DF63DF /* bkg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bkg.png; sourceTree = "<group>"; };
+		879A6F0E1E30FB5100DF63DF /* list-line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list-line.png"; sourceTree = "<group>"; };
+		879A6F101E30FC3400DF63DF /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
+		879A6F121E30FC4100DF63DF /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		879A6F131E30FC4100DF63DF /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		879A6F141E30FC4100DF63DF /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		879A6F181E30FD0900DF63DF /* bookmark-header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bookmark-header.png"; sourceTree = "<group>"; };
+		879A6F1A1E30FD1700DF63DF /* bookmark_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookmark_active.png; sourceTree = "<group>"; };
+		879A6F1B1E30FD1700DF63DF /* bookmark_inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookmark_inactive.png; sourceTree = "<group>"; };
+		879A6F1E1E30FDB300DF63DF /* bookmark-header1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bookmark-header1.png"; sourceTree = "<group>"; };
+		879A6F1F1E30FDB300DF63DF /* category-header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "category-header.png"; sourceTree = "<group>"; };
+		879A6F221E3102FC00DF63DF /* top-bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "top-bar.png"; sourceTree = "<group>"; };
+		879A6F241E310C7500DF63DF /* Splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash.png; sourceTree = "<group>"; };
+		87C0BB981E2605050066ACCC /* SingletonClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonClass.h; sourceTree = "<group>"; };
+		87C0BB991E2605050066ACCC /* SingletonClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonClass.m; sourceTree = "<group>"; };
+		87C0BB9D1E26092F0066ACCC /* DetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailTableViewCell.xib; sourceTree = "<group>"; };
+		87C0BB9F1E2609720066ACCC /* DetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailTableViewCell.h; sourceTree = "<group>"; };
+		87C0BBA01E2609720066ACCC /* DetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailTableViewCell.m; sourceTree = "<group>"; };
+		87C0BBA21E2609BB0066ACCC /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		87C0BBA31E2609BB0066ACCC /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		87C0BBA51E262D100066ACCC /* ViewOneByOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewOneByOneViewController.h; sourceTree = "<group>"; };
+		87C0BBA61E262D110066ACCC /* ViewOneByOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewOneByOneViewController.m; sourceTree = "<group>"; };
+		87C0BBAC1E266F200066ACCC /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		87C0BBAE1E2670A60066ACCC /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		87C0BBAF1E2670A60066ACCC /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		87C0BBB21E2685710066ACCC /* Constante.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constante.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +157,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87C0BBB01E2670A60066ACCC /* Messages.framework in Frameworks */,
+				87C0BBB11E2670A60066ACCC /* MessageUI.framework in Frameworks */,
+				87C0BBAD1E266F200066ACCC /* Social.framework in Frameworks */,
+				8761EBA11E25075000E0EDB1 /* Foundation.framework in Frameworks */,
+				8761EB981E25066B00E0EDB1 /* libsqlite3.0.tbd in Frameworks */,
+				41B20B4222F803D6009633C1 /* GoogleMobileAds.framework in Frameworks */,
+				8761EB991E25066B00E0EDB1 /* libsqlite3.tbd in Frameworks */,
+				41B20B4C22F85C2C009633C1 /* UnityAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,13 +192,14 @@
 				8761EB771E25054500E0EDB1 /* Love MessagesTests */,
 				8761EB821E25054600E0EDB1 /* Love MessagesUITests */,
 				8761EB5C1E25054500E0EDB1 /* Products */,
+				8761EB951E25066A00E0EDB1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		8761EB5C1E25054500E0EDB1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8761EB5B1E25054500E0EDB1 /* Love Messages.app */,
+				8761EB5B1E25054500E0EDB1 /* Love Quotes.app */,
 				8761EB741E25054500E0EDB1 /* Love MessagesTests.xctest */,
 				8761EB7F1E25054600E0EDB1 /* Love MessagesUITests.xctest */,
 			);
@@ -101,11 +209,8 @@
 		8761EB5D1E25054500E0EDB1 /* Love Messages */ = {
 			isa = PBXGroup;
 			children = (
-				8761EB611E25054500E0EDB1 /* AppDelegate.h */,
-				8761EB621E25054500E0EDB1 /* AppDelegate.m */,
-				8761EB641E25054500E0EDB1 /* ViewController.h */,
-				8761EB651E25054500E0EDB1 /* ViewController.m */,
-				8761EB671E25054500E0EDB1 /* Main.storyboard */,
+				8761EB921E25055B00E0EDB1 /* Classes */,
+				8761EB911E25054F00E0EDB1 /* Stordbord */,
 				8761EB6A1E25054500E0EDB1 /* Assets.xcassets */,
 				8761EB6C1E25054500E0EDB1 /* LaunchScreen.storyboard */,
 				8761EB6F1E25054500E0EDB1 /* Info.plist */,
@@ -117,6 +222,7 @@
 		8761EB5E1E25054500E0EDB1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8761EBA81E2516D500E0EDB1 /* Images */,
 				8761EB5F1E25054500E0EDB1 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +246,140 @@
 			path = "Love MessagesUITests";
 			sourceTree = "<group>";
 		};
+		8761EB911E25054F00E0EDB1 /* Stordbord */ = {
+			isa = PBXGroup;
+			children = (
+				8761EBA31E2510C400E0EDB1 /* MainTableViewCell.xib */,
+				87C0BB9D1E26092F0066ACCC /* DetailTableViewCell.xib */,
+				8761EB671E25054500E0EDB1 /* Main.storyboard */,
+			);
+			name = Stordbord;
+			sourceTree = "<group>";
+		};
+		8761EB921E25055B00E0EDB1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8761EB941E25056B00E0EDB1 /* delegated */,
+				8761EB931E25056300E0EDB1 /* Controller */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		8761EB931E25056300E0EDB1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8761EBA21E25107600E0EDB1 /* tableViewCell */,
+				8761EB9F1E25071B00E0EDB1 /* DataBase */,
+				87C0BB9B1E26050B0066ACCC /* Singleton */,
+				8761EB641E25054500E0EDB1 /* ViewController.h */,
+				8761EB651E25054500E0EDB1 /* ViewController.m */,
+				87C0BBA21E2609BB0066ACCC /* DetailViewController.h */,
+				87C0BBA31E2609BB0066ACCC /* DetailViewController.m */,
+				87C0BBA51E262D100066ACCC /* ViewOneByOneViewController.h */,
+				87C0BBA61E262D110066ACCC /* ViewOneByOneViewController.m */,
+				87C0BBB21E2685710066ACCC /* Constante.h */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8761EB941E25056B00E0EDB1 /* delegated */ = {
+			isa = PBXGroup;
+			children = (
+				8761EB611E25054500E0EDB1 /* AppDelegate.h */,
+				8761EB621E25054500E0EDB1 /* AppDelegate.m */,
+			);
+			name = delegated;
+			sourceTree = "<group>";
+		};
+		8761EB951E25066A00E0EDB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41B20B4B22F85C2C009633C1 /* UnityAds.framework */,
+				41B20B4122F803D6009633C1 /* GoogleMobileAds.framework */,
+				87C0BBAE1E2670A60066ACCC /* Messages.framework */,
+				87C0BBAF1E2670A60066ACCC /* MessageUI.framework */,
+				87C0BBAC1E266F200066ACCC /* Social.framework */,
+				8761EBA01E25075000E0EDB1 /* Foundation.framework */,
+				8761EB961E25066B00E0EDB1 /* libsqlite3.0.tbd */,
+				8761EB971E25066B00E0EDB1 /* libsqlite3.tbd */,
+				876F49901E28C1ED0034D691 /* database.db */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8761EB9F1E25071B00E0EDB1 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				8761EB9C1E25071800E0EDB1 /* DBManager.h */,
+				8761EB9D1E25071800E0EDB1 /* DBManager.m */,
+			);
+			name = DataBase;
+			sourceTree = "<group>";
+		};
+		8761EBA21E25107600E0EDB1 /* tableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				8761EBA51E25111800E0EDB1 /* MainTableViewCell.h */,
+				8761EBA61E25111800E0EDB1 /* MainTableViewCell.m */,
+				87C0BB9F1E2609720066ACCC /* DetailTableViewCell.h */,
+				87C0BBA01E2609720066ACCC /* DetailTableViewCell.m */,
+			);
+			name = tableViewCell;
+			sourceTree = "<group>";
+		};
+		8761EBA81E2516D500E0EDB1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8761EBA91E2516DD00E0EDB1 /* CellIcon */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		8761EBA91E2516DD00E0EDB1 /* CellIcon */ = {
+			isa = PBXGroup;
+			children = (
+				879A6F241E310C7500DF63DF /* Splash.png */,
+				879A6F221E3102FC00DF63DF /* top-bar.png */,
+				879A6F1E1E30FDB300DF63DF /* bookmark-header1.png */,
+				879A6F1F1E30FDB300DF63DF /* category-header.png */,
+				879A6F1A1E30FD1700DF63DF /* bookmark_active.png */,
+				879A6F1B1E30FD1700DF63DF /* bookmark_inactive.png */,
+				879A6F181E30FD0900DF63DF /* bookmark-header.png */,
+				879A6F121E30FC4100DF63DF /* back.png */,
+				879A6F131E30FC4100DF63DF /* home.png */,
+				879A6F141E30FC4100DF63DF /* next.png */,
+				879A6F101E30FC3400DF63DF /* share.png */,
+				879A6F0E1E30FB5100DF63DF /* list-line.png */,
+				879A6F0C1E30FA5E00DF63DF /* bkg.png */,
+				879A6EEE1E30F9A600DF63DF /* fb.png */,
+				879A6EEF1E30F9A600DF63DF /* mail.png */,
+				879A6EF01E30F9A600DF63DF /* message.png */,
+				879A6EF11E30F9A600DF63DF /* twitter.png */,
+				879A6EF21E30F9A600DF63DF /* whatsapp.png */,
+				874BF2DF1E27554F003365AF /* iphoneinfobg.png */,
+				879A6EF81E30FA4800DF63DF /* birthday.png */,
+				879A6EF91E30FA4800DF63DF /* breakup_sms.png */,
+				879A6EFA1E30FA4800DF63DF /* brokenheart_sms.png */,
+				879A6EFB1E30FA4800DF63DF /* crush_sms.png */,
+				879A6EFC1E30FA4800DF63DF /* ilu_sms.png */,
+				879A6EFD1E30FA4800DF63DF /* love_sayings.png */,
+				879A6EFE1E30FA4800DF63DF /* love_sms.png */,
+				879A6EFF1E30FA4800DF63DF /* miss_you.png */,
+				879A6F001E30FA4800DF63DF /* romantic_sms.png */,
+				879A6F011E30FA4800DF63DF /* sad_sms.png */,
+			);
+			name = CellIcon;
+			sourceTree = "<group>";
+		};
+		87C0BB9B1E26050B0066ACCC /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				87C0BB981E2605050066ACCC /* SingletonClass.h */,
+				87C0BB991E2605050066ACCC /* SingletonClass.m */,
+			);
+			name = Singleton;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,7 +397,7 @@
 			);
 			name = "Love Messages";
 			productName = "Love Messages";
-			productReference = 8761EB5B1E25054500E0EDB1 /* Love Messages.app */;
+			productReference = 8761EB5B1E25054500E0EDB1 /* Love Quotes.app */;
 			productType = "com.apple.product-type.application";
 		};
 		8761EB731E25054500E0EDB1 /* Love MessagesTests */ = {
@@ -202,7 +442,7 @@
 		8761EB531E25054500E0EDB1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Muhammad Luqman";
 				TargetAttributes = {
 					8761EB5A1E25054500E0EDB1 = {
@@ -226,7 +466,7 @@
 			};
 			buildConfigurationList = 8761EB561E25054500E0EDB1 /* Build configuration list for PBXProject "Love Messages" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -249,9 +489,41 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				879A6F0D1E30FA5E00DF63DF /* bkg.png in Resources */,
+				879A6F071E30FA4800DF63DF /* love_sayings.png in Resources */,
+				879A6F161E30FC4100DF63DF /* home.png in Resources */,
+				879A6F211E30FDB300DF63DF /* category-header.png in Resources */,
+				879A6EF61E30F9A600DF63DF /* twitter.png in Resources */,
+				879A6F201E30FDB300DF63DF /* bookmark-header1.png in Resources */,
+				876F49911E28C1F50034D691 /* database.db in Resources */,
+				879A6F091E30FA4800DF63DF /* miss_you.png in Resources */,
+				874BF2E01E27554F003365AF /* iphoneinfobg.png in Resources */,
+				879A6F1C1E30FD1700DF63DF /* bookmark_active.png in Resources */,
+				879A6F151E30FC4100DF63DF /* back.png in Resources */,
+				879A6F021E30FA4800DF63DF /* birthday.png in Resources */,
+				879A6F111E30FC3400DF63DF /* share.png in Resources */,
 				8761EB6E1E25054500E0EDB1 /* LaunchScreen.storyboard in Resources */,
 				8761EB6B1E25054500E0EDB1 /* Assets.xcassets in Resources */,
+				879A6F231E3102FC00DF63DF /* top-bar.png in Resources */,
+				879A6F0F1E30FB5100DF63DF /* list-line.png in Resources */,
+				879A6F251E310C7500DF63DF /* Splash.png in Resources */,
+				879A6F081E30FA4800DF63DF /* love_sms.png in Resources */,
+				879A6F171E30FC4100DF63DF /* next.png in Resources */,
 				8761EB691E25054500E0EDB1 /* Main.storyboard in Resources */,
+				879A6F051E30FA4800DF63DF /* crush_sms.png in Resources */,
+				879A6F041E30FA4800DF63DF /* brokenheart_sms.png in Resources */,
+				879A6EF31E30F9A600DF63DF /* fb.png in Resources */,
+				879A6EF51E30F9A600DF63DF /* message.png in Resources */,
+				879A6F1D1E30FD1700DF63DF /* bookmark_inactive.png in Resources */,
+				879A6EF71E30F9A600DF63DF /* whatsapp.png in Resources */,
+				879A6F0A1E30FA4800DF63DF /* romantic_sms.png in Resources */,
+				879A6EF41E30F9A600DF63DF /* mail.png in Resources */,
+				8761EBA41E2510C400E0EDB1 /* MainTableViewCell.xib in Resources */,
+				879A6F061E30FA4800DF63DF /* ilu_sms.png in Resources */,
+				879A6F031E30FA4800DF63DF /* breakup_sms.png in Resources */,
+				879A6F0B1E30FA4800DF63DF /* sad_sms.png in Resources */,
+				879A6F191E30FD0900DF63DF /* bookmark-header.png in Resources */,
+				87C0BB9E1E26092F0066ACCC /* DetailTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +551,12 @@
 				8761EB661E25054500E0EDB1 /* ViewController.m in Sources */,
 				8761EB631E25054500E0EDB1 /* AppDelegate.m in Sources */,
 				8761EB601E25054500E0EDB1 /* main.m in Sources */,
+				87C0BBA41E2609BB0066ACCC /* DetailViewController.m in Sources */,
+				8761EB9E1E25071800E0EDB1 /* DBManager.m in Sources */,
+				87C0BB9A1E2605050066ACCC /* SingletonClass.m in Sources */,
+				8761EBA71E25111800E0EDB1 /* MainTableViewCell.m in Sources */,
+				87C0BBA71E262D110066ACCC /* ViewOneByOneViewController.m in Sources */,
+				87C0BBA11E2609720066ACCC /* DetailTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,20 +615,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -385,20 +673,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -428,10 +726,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V73LJ8VDAT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Love Messages/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "luqman.Love-Messages";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hussaintechlabz.LoveQuotes;
+				PRODUCT_NAME = "Love Quotes";
 			};
 			name = Debug;
 		};
@@ -440,10 +743,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V73LJ8VDAT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Love Messages/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "luqman.Love-Messages";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hussaintechlabz.LoveQuotes;
+				PRODUCT_NAME = "Love Quotes";
 			};
 			name = Release;
 		};
@@ -516,6 +824,7 @@
 				8761EB8A1E25054600E0EDB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8761EB8B1E25054600E0EDB1 /* Build configuration list for PBXNativeTarget "Love MessagesTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +833,7 @@
 				8761EB8D1E25054600E0EDB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8761EB8E1E25054600E0EDB1 /* Build configuration list for PBXNativeTarget "Love MessagesUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +842,7 @@
 				8761EB901E25054600E0EDB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
